@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище testModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "test.dbo.Data" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="Data">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="image" Type="nvarchar" MaxLength="50" />
+    <Property Name="manufacturer" Type="nvarchar" MaxLength="50" />
+    <Property Name="discription" Type="nvarchar(max)" />
+    <Property Name="count" Type="float" />
+    <Property Name="price" Type="float" />
+    <Property Name="supplier" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "test.dbo.ЮЗЕР" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="ЮЗЕР">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="login" Type="nvarchar" MaxLength="50" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="Хранилище testModelContainer">
+    <EntitySet Name="Data" EntityType="Self.Data" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Data].[id] AS [id], 
+    [Data].[name] AS [name], 
+    [Data].[image] AS [image], 
+    [Data].[manufacturer] AS [manufacturer], 
+    [Data].[discription] AS [discription], 
+    [Data].[count] AS [count], 
+    [Data].[price] AS [price], 
+    [Data].[supplier] AS [supplier]
+    FROM [dbo].[Data] AS [Data]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ЮЗЕР" EntityType="Self.ЮЗЕР" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ЮЗЕР].[id] AS [id], 
+    [ЮЗЕР].[login] AS [login], 
+    [ЮЗЕР].[password] AS [password], 
+    [ЮЗЕР].[username] AS [username]
+    FROM [dbo].[ЮЗЕР] AS [ЮЗЕР]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

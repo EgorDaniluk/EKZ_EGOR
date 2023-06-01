@@ -1,0 +1,16 @@
+C:\Users\10191731\source\repos\EgorD\EgorD\obj\Debug\EgorD.csproj.AssemblyReference.cache
+C:\Users\10191731\source\repos\EgorD\EgorD\obj\Debug\EgorD.csproj.SuggestedBindingRedirects.cache
+C:\Users\10191731\source\repos\EgorD\EgorD\obj\Debug\MainWindow.g.cs
+C:\Users\10191731\source\repos\EgorD\EgorD\obj\Debug\App.g.cs
+C:\Users\10191731\source\repos\EgorD\EgorD\obj\Debug\EgorD_Content.g.cs
+C:\Users\10191731\source\repos\EgorD\EgorD\obj\Debug\EgorD_MarkupCompile.cache
+C:\Users\10191731\source\repos\EgorD\EgorD\obj\Debug\EgorD_MarkupCompile.lref
+C:\Users\10191731\source\repos\EgorD\EgorD\obj\Debug\Pages\auth.g.cs
+S:\USERS\39-00z\Данилюк Егор Сергеевич\repos\EgorD\EgorD\obj\Debug\EgorD.csproj.AssemblyReference.cache
+S:\USERS\39-00z\Данилюк Егор Сергеевич\repos\EgorD\EgorD\obj\Debug\EgorD.csproj.SuggestedBindingRedirects.cache
+S:\USERS\39-00z\Данилюк Егор Сергеевич\repos\EgorD\EgorD\obj\Debug\MainWindow.g.cs
+S:\USERS\39-00z\Данилюк Егор Сергеевич\repos\EgorD\EgorD\obj\Debug\Pages\auth.g.cs
+S:\USERS\39-00z\Данилюк Егор Сергеевич\repos\EgorD\EgorD\obj\Debug\App.g.cs
+S:\USERS\39-00z\Данилюк Егор Сергеевич\repos\EgorD\EgorD\obj\Debug\EgorD_Content.g.cs
+S:\USERS\39-00z\Данилюк Егор Сергеевич\repos\EgorD\EgorD\obj\Debug\EgorD_MarkupCompile.cache
+S:\USERS\39-00z\Данилюк Егор Сергеевич\repos\EgorD\EgorD\obj\Debug\EgorD_MarkupCompile.lref

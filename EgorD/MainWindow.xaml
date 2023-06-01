@@ -1,0 +1,14 @@
+﻿<Window x:Class="EgorD.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EgorD"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="Apprd">
+        <Image Margin="323,43,292,290" Source="/QAxWSl0M3iYDlMMVysmXZWEwcYqrD3uWEf0Riyec.jpeg" Stretch="Fill"/>
+        <Frame x:Name="loh" Content="" Margin="10,149,10,12" NavigationUIVisibility="Hidden"/>
+
+    </Grid>
+</Window>
